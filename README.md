@@ -1,1 +1,0 @@
-# SLOW-FASHION-Online-Magazine
