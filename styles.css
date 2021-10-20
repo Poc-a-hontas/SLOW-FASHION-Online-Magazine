@@ -1,0 +1,555 @@
+*,
+:after,
+:before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 0 10px;
+
+}
+/* ARTICLES */
+.heading_1 {
+    position: absolute;
+    left: 250px;
+    top: 720px;
+}
+
+.heading_2 {
+    position: absolute;
+    left: 250px;
+    top: 1120px;
+}
+
+/* SOCIAL MEDIA ICONS + LOGO ICON */
+.icon {
+    width: 50px;
+    height: 50px;
+}
+
+.hanger {
+    position: inherit;
+    left: 20px;
+    top: 1800px;
+    width: 150px;
+    height: 90px;
+}
+
+.hanger_1 {
+    position: absolute;
+    left: 20px;
+    top: 1800px;
+    width: 150px;
+    height: 90px;
+}
+
+.hanger-ff {
+    position: absolute;
+    top: 1950px;
+    left: 20px;
+    width: 150px;
+    height: 90px;
+}
+
+/* NAVIGATION BUTTONS STICKY HOVERING */
+.home-image {
+    width: 50px;
+    height: 50px;
+}
+
+.info-image {
+    width: 50px;
+    height: 50px;
+}
+
+.didyouknow-image {
+    width: 50px;
+    height: 50px;
+}
+
+.needle-image {
+    width: 50px;
+    height: 50px;
+}
+
+.share-image {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+/* TEXT OF THE GREEN MOVING BUTTONS */
+
+.home-text {
+    text-decoration: none;
+    color: #333333;
+    font-family: Silom;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.info-text {
+    text-decoration: none;
+    color: #333333;
+    font-family: Silom;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.didyouknow-text {
+    text-decoration: none;
+    color: #333333;
+    font-family: Silom;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.needle-text {
+    text-decoration: none;
+    color: #333333;
+    font-family: Silom;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+
+/* FAST FASHION ICON */
+.info {
+    position: fixed;
+    top: 280px;
+    left: -215px;
+    background-color: rgb(139, 221, 145);
+    padding: 5px;
+}
+
+.info:hover {
+    opacity: 0.80;
+    animation-name: sticker;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-fill-mode:forwards;
+}
+
+@keyframes sticker{
+    from {
+        left:-215px;
+    }
+    to {
+        left:0px;
+    }
+}
+/* FAST FASHION FACTS ICON */
+.didyouknow {
+    position: fixed;
+    top: 360px;
+    left: -347px;
+    background-color: rgb(139, 221, 145);
+    padding: 5px;
+}
+
+.didyouknow:hover {
+    opacity: 0.80;
+    animation-name: sticker;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-fill-mode:forwards;
+}
+
+@keyframes sticker{
+    from {
+        left:-347px;
+    }
+    to {
+        left:0px;
+    }
+}
+/* DIY ICON */
+.needle {
+    position: fixed;
+    top: 440px;
+    left: -144px;
+    background-color: rgb(139, 221, 145);
+    padding: 5px;
+}
+
+.needle:hover {
+    opacity: 0.80;
+    animation-name: sticker;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-fill-mode:forwards;
+}
+
+@keyframes sticker{
+    from {
+        left:-144px;
+    }
+    to {
+        left:0px;
+    }
+}
+
+/* SOCIAL MEDIA ICONS BUTTON */
+.share {
+    position: fixed;
+    top: 520px;
+    left: -100px;
+    background-color: rgb(139, 221, 145);
+    padding: 5px;
+}
+
+.share:hover {
+    opacity: 0.80;
+    animation-name: sticker;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-fill-mode:forwards;
+}
+
+@keyframes sticker{
+    from {
+        left:-100px;
+    }
+    to {
+        left:0px;
+    }
+}
+
+/* HOME ICON */
+
+
+.home {
+    position: fixed;
+    top: 200px;
+    left: -65px;
+    background-color: rgb(139, 221, 145);
+    padding: 5px;
+}
+
+.home:hover {
+    opacity: 0.80;
+    animation-name: sticker;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-fill-mode:forwards;
+}
+
+@keyframes sticker{
+    from {
+        left: -65px;
+    }
+    to {
+        left: 0px;
+    }
+}
+
+
+.YT-logo{
+    width: 30px;
+    height: 30px;
+}
+
+.IG-logo{
+    width: 30px;
+    height: 30px;
+}
+
+.FB-logo{
+    width: 30px;
+    height: 30px;
+}
+/* ARROWS BUTTONS (NAVIGATION) */
+.arrow-right {
+    position: fixed;
+    top: 340px;
+    right: 0;
+    height: 50px;
+    background-color:rgb(139, 221, 145);
+    padding:10px;
+    width: 50px;
+    }
+
+.arrow-right:hover {
+    opacity: 0.85;
+    }
+
+.arrow-left {
+        position: fixed;
+        top: 340px;
+        left: 0;
+        background-color:rgb(139, 221, 145);
+        padding:10px;
+        width: 50px;
+        height: 50px;
+    }
+    
+.arrow-left:hover {
+        opacity: 0.85;
+    }
+
+/* HOME SECTION */
+
+.naked-image {
+    width: 100%;
+    height: 600px;
+    margin-bottom: 100px;
+}
+.box {
+    display: flex;
+    flex-direction: row;
+}
+
+.paragraph-1 {
+    display: flex;
+    justify-content:flex-start;
+    padding-left: 240px;
+    padding-top: 50px;
+    margin-bottom: 150px;
+    font-family: 'Andale Mono';
+    font-size: 15px;
+}
+
+.planet-image {
+    display: flex;
+    justify-content: flex-end;
+    width: 500px;
+    height: 400px;
+    padding-top: 150px;
+
+}
+.paragraph-2 {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    float: left;
+    padding-left: 240px;
+    padding-top: 50px;
+    font-family: 'Andale Mono';
+    font-size: 15px;
+}
+
+.tshirt-image {
+    float: left;
+    padding-top: 200px;
+}
+/* FAST FASHION SECTION */
+.fight-fast-fashion-image {
+    width: 400px;
+    margin-left: 400px;
+    margin-top: 100px;
+    float: left;
+    position: absolute;
+}
+
+.fight-image {
+    width: 600px;
+    margin-left: 700px;
+    margin-top: 100px;
+}
+
+.ff-article-1 {
+    font-family: GlacialIndifference-Regular;
+    display: flex;
+    justify-content:center;
+    margin: 100px;
+    font-size: 20px;
+    margin-bottom: 200px;
+}
+
+.ff-heading-2 {
+    font-family: GlacialIndifference-Regular;
+    margin-top: 30px;
+}
+
+.ff-article-22 {
+    margin-top: 250px;
+    margin-left: 200px;
+    display: block;
+    font-family: GlacialIndifference-Regular;
+}
+
+.ff-article-2 {
+    font-size: 18px;
+    float: left;
+}
+
+
+.handstand-image {
+    width: 400px;
+    height: 450px;
+    margin-left: 720px;
+    margin-top: -400px;
+}
+
+.bridge-image {
+    width: 700px;
+    height: 600px;
+    float: left;
+    margin-left: 120px;
+}
+
+.ff-article-3 {
+    font-size: 18px;
+    margin-left: 150px;
+}
+
+.ff-article-33 {
+    margin-top: 570px;
+    margin-left: 750px;
+    position: absolute;
+    font-family: GlacialIndifference-Regular;
+}
+
+.heading_3 {
+    margin-bottom: 10px;
+    margin-left: 130px ;
+}
+/* FAST FASHION FACTS */
+.freakin {
+    margin-left: 500px;
+}
+
+.ten {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.facts-article {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+    padding-top: 100px;
+    font-family: GlacialIndifference-Regular;
+    font-size: 22px;
+}
+
+.number-of-facts {
+    display: flex;
+    justify-content: center;
+    font-family: BirthstoneBounce-Regular;
+    font-size: 50px;
+}
+
+.facts {
+    display: flex;
+    justify-content: center;
+    font-family: GlacialIndifference-Regular;
+}
+
+.fact {
+    padding: 18px;
+}
+
+.tshirt-ff {
+    padding-left: 500px;
+    padding-bottom: 100px;
+}
+
+/* DIY SECTION */
+.GIF {
+    width: 55%;
+    height: 450px;
+    margin-top: 80px;
+    margin-left: 300px;
+}
+
+/* HEADING ANIMATION LICENSED*/
+
+ /* ----------------------------------------------
+ * Generated by Animista on 2021-10-17 9:18:42
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation tracking-in-contract-bck-top
+ * ----------------------------------------
+ */
+
+ .tracking-in-contract-bck-top {
+	-webkit-animation: tracking-in-contract-bck-top 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-contract-bck-top 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+.tracking-in-contract-bck-top {
+    color: #333333;
+    font-size: 85px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+@-webkit-keyframes tracking-in-contract-bck-top {
+    0% {
+      letter-spacing: 1em;
+      -webkit-transform: translateZ(400px) translateY(-300px);
+              transform: translateZ(400px) translateY(-300px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0) translateY(0);
+              transform: translateZ(0) translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-contract-bck-top {
+    0% {
+      letter-spacing: 1em;
+      -webkit-transform: translateZ(400px) translateY(-300px);
+              transform: translateZ(400px) translateY(-300px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0) translateY(0);
+              transform: translateZ(0) translateY(0);
+      opacity: 1;
+    }
+  }
+  
+.diy-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.DIY-images{
+    width: 400px;
+    height: 400px;
+}
+
+.DIY-images:hover {
+    transform: scale(1.3);
+}
+
+.diy {
+    margin: 40px;
+    padding: 10px;
+}
+
+.diy-headings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: GlacialIndifference-Regular;
+}
+
+.tracking-in-contract-bck-top {
+    font-family: GlacialIndifference-Regular;
+}
+
